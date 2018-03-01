@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
+import Header from './Header'
 
 class Employment extends Component {
     render() {
         return (
             <div>
-                <a name="employment"/>
+                <Header />
+
                 <div className="space">
                 </div>
                 <div className="card" id="employ">

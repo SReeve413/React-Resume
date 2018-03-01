@@ -1,11 +1,13 @@
 import React, {Component} from 'react'
+import Header from './Header'
 
 class Skills extends Component{
 
     render(){
         return(
            <div>
-               <a name="skills" />
+               <Header />
+
                <div className="space">
                </div>
                <div className="card" id="skills">

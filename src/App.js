@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Header from './Header'
-import Homed from './Homed'
-import About from './About'
-import Skills from './Skills'
-import Education from './Education'
-import Employment from './Employment'
+import Header from './pages/Header'
+import Homed from './pages/Homed'
+import About from './pages/About'
+import Skills from './pages/Skills'
+import Education from './pages/Education'
+import Employment from './pages/Employment'
 
 
 class App extends Component {

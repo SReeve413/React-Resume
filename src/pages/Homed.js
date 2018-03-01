@@ -1,11 +1,14 @@
 import React, {Component} from 'react'
-import Headshot from './head-shot.jpg';
+import Headshot from '../head-shot.jpg';
+import Header from './Header'
 
 class Homed extends Component {
 
     render() {
         return (
 <div>
+
+    <Header />
                 <div className="card" id="home">
                     <div>
                         <img src={Headshot} className="head-shot" alt="head shot"/>
